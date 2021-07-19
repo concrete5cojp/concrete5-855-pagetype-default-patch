@@ -35,6 +35,7 @@ If you need some technical assistance, you can use our technical services. Pleas
 
 This patch was tested on the following Concrete CMS
 
+- 8.5.1 (However, you need to modify the file a bit)
 - 8.5.2
 - 8.5.5
 
