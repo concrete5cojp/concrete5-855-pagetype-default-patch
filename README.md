@@ -9,6 +9,11 @@ This may have happened due to mishanding sessions.
 
 This is probab;y caused by both Concrete CMS and server side.
 
+# Authors
+
+- Derek Cameron (code) @deek87
+- Katz Ueno (tested and documentation) @katzueno
+
 # Files to patch
 
 Unless you have customization, simply update the following files to your Concrete CMS, then clear cache, try to edit default block again.
