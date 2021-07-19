@@ -1,0 +1,78 @@
+# Originally maintained at
+# https://github.com/concrete5cojp/concrete5-gitignore/
+# @katzueno from concrete5 Japan, Inc.
+
+# ignore system files
+.DS_Store
+thumbs.db
+__MACOSX
+._*
+.*swp
+.*swo
+*.iml
+
+# ignore PHP composer files
+composer.phar
+## Comment out if you want to ignore the top concrete5 composer file
+## /composer.json
+/composer.lock
+## Ignore vendor directory of packages and etc.
+vendor/
+
+# ignore the config
+/application/config/database.php
+/application/config/doctrine/*
+/application/config/generated_overrides/*
+/application/config/valet.*
+
+# ignore everything but the index.html
+/application/files/*
+!/application/files/index.html
+
+# ignore concrete folder
+/concrete
+
+# ignore updates folder
+/updates/*
+!/updates/.gitkeep
+
+# Ignore language Files but keep the directory
+/application/languages/*
+!/application/languages/.gitkeep
+
+# ignore sitemap.xml
+/sitemap.xml
+
+# ignore the error log and .htaccess and others
+error_log
+.htaccess
+.htpasswd
+.ftpquota
+
+# ignore node modules used for building
+/build/node_modules
+/build/release
+/build/Gruntfile.parameters.js
+/build/npm-debug.log
+
+# ignore custom php-cs-fixer configuration file
+/.php_cs
+
+# ignore php-cs-fixer cache file
+/.php_cs.cache
+
+# ignore text editor files
+## Eclipse-specific files
+/.externalToolBuilders/
+/.settings/
+/.buildpath
+## PHPStorm
+__IDE_SYMBOLS__.php
+.phpstorm.meta.php
+.idea
+## Aptana and Eclipse
+.project
+## VS Code
+.vscode
+## Nova
+.nova
