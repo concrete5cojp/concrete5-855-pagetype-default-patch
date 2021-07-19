@@ -7,7 +7,7 @@ When you tried to visit Page Type's Default Output editing page (even if you are
 
 This may have happened due to mishanding sessions.
 
-This is probab;y caused by both Concrete CMS and server side.
+This is probably caused by both Concrete CMS and server side.
 
 # Authors
 
@@ -31,6 +31,12 @@ Unless you have customization, simply update the following files to your Concret
 
 If you need some technical assistance, you can use our technical services. Please email us at info [at] concrete5.co.jp.
 
+## Tested on
+
+This patch was tested on the following Concrete CMS
+
+- 8.5.2
+- 8.5.5
 
 # Changelog
 
