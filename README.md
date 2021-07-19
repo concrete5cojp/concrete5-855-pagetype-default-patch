@@ -1,13 +1,17 @@
 # concrete5 (Concrete CMS) 8.5.5 pacthes to fix 403 error on Page Type Default Editing Page
 By concrete5 Japan, Inc.
 
-This is the patch to fix 403 error when you tried to visit Page Type's Default Output editing page even if you are loggedin as super-admin due to mishanding session.
+This is the patch to fix 403 error of default page type block editing page
 
-This was caused by both Concrete CMS and server side.
+When you tried to visit Page Type's Default Output editing page (even if you are logged in as super-admin), you get 403 Page Forbidden Error.
+
+This may have happened due to mishanding sessions.
+
+This is probab;y caused by both Concrete CMS and server side.
 
 # Files to patch
 
-Unless you have customization, simply update the following files to your Concrete CMS.
+Unless you have customization, simply update the following files to your Concrete CMS, then clear cache, try to edit default block again.
 
 - application/controllers/single_page/dashboard/pages/types/output.php
 
